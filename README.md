@@ -7,7 +7,7 @@ MacOS non-Latin keyboard-layouts (such as Arabic, Hebrew and many others) use th
 
 This means that as a user of Dvorak and Hebrew layouts, one have to use different application hot-keys depending on the currenty layout.
 
-For example, if you are using the Hebrew keyboard that comes with macOS and you hit Cmd+L in Firefox/Chrome, then instead of setting the focus to focus the address bar, the Print dialogue will show up.
+For example, if you are using the Hebrew keyboard that comes with macOS and you hit Cmd+L in Firefox/Chrome, then instead of setting the focus to the address bar, the Print dialogue will show up.
 
 That happens because the 'L' key in the Dvorak layout maps to the 'P' key in the QWERTY layout, which the default Hebrew keyboard uses for its modifier key.
 
