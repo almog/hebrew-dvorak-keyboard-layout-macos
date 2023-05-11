@@ -16,4 +16,7 @@ By using the same modifier keys layout, you no longer have to constantly be awar
 
 ## How?
 
-[Ukelele](https://software.sil.org/ukelele/) is a keyboard layout editor for macOS, which allows you to export a layout as an installer disk image, which you can find in this repository, along with the source file, which you can edit and generate your own installer in Ukelele.
+[Ukelele](https://software.sil.org/ukelele/) is a keyboard layout editor for macOS.
+Either open the .keylayout file with Ukelele and install it on your machine, or use the exported disk image to install it (I'd advise the former though)
+
+The newly installed keyboard ("Hebrew Dvorak") should be listed as an input source under "Others".
