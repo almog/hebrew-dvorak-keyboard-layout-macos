@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 340 on 2021-03-08 at 13:18 (GMT+2)-->
-<!--Last edited by Ukelele version 351 on 2023-01-15 at 17:21 (GMT+2)-->
+<!--Last edited by Ukelele version 351 on 2023-05-11 at 10:11 (GMT+3)-->
 <keyboard group="126" id="-12774" name="Hebrew Dvorak" maxout="2">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
@@ -19,17 +19,20 @@
         <keyMapSelect mapIndex="0">
             <modifier keys=""/>
         </keyMapSelect>
-        <keyMapSelect mapIndex="1">
-            <modifier keys="anyShift anyOption"/>
-            <modifier keys="anyShift"/>
-            <modifier keys="anyShift command"/>
-        </keyMapSelect>
+
         <keyMapSelect mapIndex="2">
-            <modifier keys="command"/>
-            <modifier keys="anyControl"/>
             <modifier keys="anyOption"/>
         </keyMapSelect>
+
+        <keyMapSelect mapIndex="1">
+            <modifier keys="anyOption anyShift"/>
+        </keyMapSelect>
+
         <keyMapSelect mapIndex="3">
+            <modifier keys="anyControl"/>
+            <modifier keys="command"/>
+            <modifier keys="anyShift"/>
+            <modifier keys="anyShift command"/>
             <modifier keys="caps"/>
         </keyMapSelect>
     </modifierMap>
@@ -139,6 +142,7 @@
             <key code="125" output="&#x001F;"/>
             <key code="126" output="&#x001E;"/>
         </keyMap>
+        <!-- Shift + Option -->
         <keyMap index="1">
             <key code="0" output="שׁ"/>
             <key code="1" output="O"/>
@@ -244,6 +248,8 @@
             <key code="125" output="&#x001F;"/>
             <key code="126" output="&#x001E;"/>
         </keyMap>
+
+        <!-- Option -->
         <keyMap index="2">
             <key code="0" output="שׂ"/>
             <key code="1" output="o"/>
