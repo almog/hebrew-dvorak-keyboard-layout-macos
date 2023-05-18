@@ -14,9 +14,11 @@ That happens because the 'L' key in the Dvorak layout maps to the 'P' key in the
 
 By using the same modifier keys layout, you no longer have to constantly be aware of the currently selected language when triggering keyboard shortcuts, which in most applications are not language specific.
 
-## How?
+## Installation
 
-[Ukelele](https://software.sil.org/ukelele/) is a keyboard layout editor for macOS.
-Either open the .keylayout file with Ukelele and install it on your machine, or use the exported disk image to install it (I'd advise the former though)
+```
+$ sudo cp hebrew-dvorak.keylayout '/Library/Keyboard Layouts/'
+```
 
-The newly installed keyboard ("Hebrew Dvorak") should be listed as an input source under "Others".
+Go to `System Preferences -> Keyboard -> Input Sources`, add a new input source (`+` button) and all the way down the list, under `Others`, you should find "Hebrew Dvorak".
+
